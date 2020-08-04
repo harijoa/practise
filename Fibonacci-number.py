@@ -1,7 +1,8 @@
 x = int(input('how many term you want?'))
 n1,n2 = 0,1
-if x > 1:
+if x >= 1:
   print(0)
+if x >= 2:
   print(1)
 for i in range(3,x+1):
   nth = n1 + n2
