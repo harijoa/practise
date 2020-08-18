@@ -4,10 +4,10 @@ for i in range(1,x+1):
     y = int(input('enter a value: '))
     list.append(y)
 print(list)
-def even_odd(x):
+def even_odd(h):
     even = 0
     odd = 0
-    for i in list:
+    for i in h:
         if i % 2 == 0:
           even +=1
         else:
